@@ -8,7 +8,8 @@ English | [한국어](README_KO.md)
 
 Meta harness skill for Hermes Agent.
 
-This repository adapts the "harness" idea into a Hermes-native workflow: inspect a domain, design the right multi-agent topology, define reusable skills, and scaffold durable orchestration docs that fit Hermes tools such as delegate_task, todo, memory, cronjob, browser, web, and terminal.
+This repository is a Hermes-focused port of the original `revfactory1/harness` repository.
+It ports `revfactory1/harness` into a Hermes-native workflow: inspect a domain, design the right multi-agent topology, define reusable skills, and scaffold durable orchestration docs that fit Hermes tools such as `delegate_task`, `todo`, `memory`, `cronjob`, `browser`, `web`, and `terminal`.
 
 ## What it is
 
