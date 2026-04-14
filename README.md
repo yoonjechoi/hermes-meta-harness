@@ -99,7 +99,7 @@ See `skills/hermes-meta-harness/references/delegation-patterns.md`.
 
 ## Relationship to the original Harness project
 
-This repository is a port of the original `revfactory/harness` idea into a Hermes Agent-native form.
+This repository is a port of the original `revfactory1/harness` repository into a Hermes Agent-native form.
 In other words, it explicitly ports the original repository's meta-harness concept, structure, and workflow philosophy into Hermes tools and conventions.
 
 It is not a Claude Code plugin.
