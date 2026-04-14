@@ -94,8 +94,11 @@ cp -r skills/hermes-meta-harness ~/.hermes/skills/hermes-meta-harness
 
 ## 원본 harness와의 관계
 
-이 저장소는 Hermes Agent용 적응판이며 Claude Code 플러그인이 아닙니다.
-원본의 메타 스킬 발상을 유지하되, 실제 실행 계층은 Hermes 도구와 규약에 맞게 번역했습니다.
+이 저장소는 원본 `revfactory/harness` 저장소의 개념과 구조를 Hermes Agent용으로 포팅한 결과물입니다.
+즉, 원본 repo의 메타 하네스 철학, 워크플로우, 역할 분리 아이디어를 Hermes 도구와 규약에 맞게 명시적으로 옮긴 버전입니다.
+
+이 저장소는 Claude Code 플러그인이 아닙니다.
+대신 원본의 유용한 발상을 유지하면서, 실제 실행 계층은 `delegate_task`, `todo`, `memory`, Hermes 스킬 디렉토리, 파일 기반 산출물 오케스트레이션 같은 Hermes 방식으로 번역했습니다.
 
 ## 라이선스
 
