@@ -96,8 +96,11 @@ See `skills/hermes-meta-harness/references/delegation-patterns.md`.
 
 ## Relationship to the original Harness project
 
-This repository is an adaptation for Hermes Agent and is not a plugin for Claude Code.
-It keeps the useful meta-skill idea while translating the execution model to Hermes tools and conventions.
+This repository is a port of the original `revfactory/harness` idea into a Hermes Agent-native form.
+In other words, it explicitly ports the original repository's meta-harness concept, structure, and workflow philosophy into Hermes tools and conventions.
+
+It is not a Claude Code plugin.
+Instead, it preserves the useful parts of the original repo while translating the execution model to Hermes primitives such as `delegate_task`, `todo`, `memory`, Hermes skill directories, and artifact-based orchestration.
 
 ## License
 
